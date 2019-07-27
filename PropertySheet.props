@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <ffmpeg>E:\ffmpeg-win32-dev\ffmpeg-20181208-6b1c4ce-win32-dev</ffmpeg>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="ffmpeg">
+      <Value>$(ffmpeg)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
